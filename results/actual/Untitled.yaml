@@ -1,0 +1,15 @@
+lista-produtos:  # 07/02/2025, 18:23:24:448
+  request:
+    url: http://localhost:8080/produtos
+    method: GET
+    headers: {}
+  response:  # 51 ms
+    status:
+      code: 200
+      message: OK
+    headers:
+      connection: close
+      content-type: application/json
+      date: Fri, 07 Feb 2025 21:23:24 GMT
+      transfer-encoding: chunked
+    body: '[]'

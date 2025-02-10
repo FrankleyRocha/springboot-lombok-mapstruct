@@ -1,0 +1,24 @@
+[
+  {
+    "name": "cadastra-produto",
+    "test": "cadastra-produto",
+    "type": "request",
+    "start": "2025-02-07T21:26:25.327Z",
+    "end": "2025-02-07T21:26:25.350Z",
+    "result": {
+      "status": "Errored",
+      "message": "Request 'cadastra-produto' ERRORED in 23 ms: application/json\n is not a legal HTTP header value"
+    },
+    "request": {
+      "name": "cadastra-produto",
+      "type": "request",
+      "url": "http://localhost:8080/produtos",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json\n"
+      },
+      "body": "{\n  \"id\":null,\n  \"descricao\":\"Teste\"\n}",
+      "submitted": "2025-02-07T21:26:25.327Z"
+    }
+  }
+]
