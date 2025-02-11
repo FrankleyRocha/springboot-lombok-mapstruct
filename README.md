@@ -1,3 +1,4 @@
+````
 demo
 ├── src
 │   ├── main
@@ -11,3 +12,4 @@ demo
 │   │   │   ├── service          # Regras de negócio
 │   │   │   ├── DemoApplication  # Classe principal
 │   ├── test
+````
