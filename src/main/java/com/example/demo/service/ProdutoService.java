@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.domain.Produto;
 import com.example.demo.dto.ProdutoDTO;
-import com.example.demo.dto.ProdutoMapper;
+import com.example.demo.mapper.ProdutoMapper;
 import com.example.demo.repository.ProdutoRepo;
 
 import lombok.AllArgsConstructor;
