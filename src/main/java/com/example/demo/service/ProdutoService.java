@@ -18,9 +18,9 @@ public class ProdutoService {
     private final ProdutoMapper mapper;
 
     public List<ProdutoDTO> listarTodos() {
-        return repo.findAll().stream()
-            .map(mapper::toDto)
-            .toList();
+        return repo.findAll().stream().map(
+            o -> mapper.toDto(o)
+        ).toList();
     }
 
     public ProdutoDTO salvar(ProdutoDTO dto) {
